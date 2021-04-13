@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2017 The Bitcoin Core developers
-// Copyright (c) 2021 The Weacoin Core developers
+// Copyright (c) 2018-2021 The Weacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -250,7 +250,7 @@ static void MutateTxAddInput(CMutableTransaction& tx, const std::string& strInpu
         throw std::runtime_error("invalid TX input vout");
 
     // extract the optional sequence number
-    uint32_t nSequenceIn=std::numeric_limits<unsigned int>::max();
+    uint32_t nSequenceIn = CTxIn::SEQUENCE_FINAL;
     if (vStrInputParts.size() > 2)
         nSequenceIn = std::stoul(vStrInputParts[2]);
 
