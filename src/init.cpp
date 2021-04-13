@@ -738,8 +738,7 @@ bool AppInitServers()
         return false;
     if (!StartHTTPRPC())
         return false;
-    if (gArgs.GetBoolArg("-rest", DEFAULT_REST_ENABLE) && !StartREST())
-        return false;
+    if (gArgs.GetBoolArg("-rest", DEFAULT_REST_ENABLE)) StartREST();
     if (!StartHTTPServer())
         return false;
     return true;
