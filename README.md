@@ -9,8 +9,8 @@ Bitcointalk: https://bitcointalk.org/index.php?topic=5323633.msg56556429#msg5655
 Block explorer: https://openchains.info/coin/weacoin/blocks  
 Weacoin is a universal internet currency, but general idea - helping for small projects, donating for it, rocket.
 
-Updates:
-v2.1 (13.04.2021)
-Fix travis unsigned error
-Update SEQUENCE
-Update REST
+# Updates:  
+v2.1 (13.04.2021)  
+Fix travis unsigned error  
+Update SEQUENCE  
+Update REST  
