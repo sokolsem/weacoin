@@ -14,3 +14,6 @@ v2.1 (13.04.2021)
 Fix travis unsigned error  
 Update SEQUENCE  
 Update REST  
+
+v2.1.1 (30.01.2024)
+Little patches
